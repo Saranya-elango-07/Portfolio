@@ -35,10 +35,7 @@ body {
   color: var(--accent);
 }
 
-/* =========================
-   HERO
-========================= */
-.hero-section {
+.home-section {
   background: linear-gradient(135deg, #faf8fc 0%, #f0ebf7 100%);
 }
 
@@ -54,11 +51,11 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.hero-section h1 {
+.home-section h1 {
   letter-spacing: -0.04em;
 }
 
-.hero-section .btn-dark {
+.home-section .btn-dark {
   background-color: var(--dark);
   border-color: var(--dark);
 }
@@ -86,9 +83,6 @@ body {
   font-weight: 800;
 }
 
-/* =========================
-   SECTIONS
-========================= */
 .section-padding {
   padding: 90px 0;
 }
@@ -105,9 +99,6 @@ body {
   font-size: 2.3rem;
 }
 
-/* =========================
-   ABOUT
-========================= */
 .info-box {
   border: 1px solid var(--border);
   border-radius: 18px;
@@ -135,9 +126,6 @@ body {
   margin-top: 0.2rem;
 }
 
-/* =========================
-   SKILLS
-========================= */
 .skill-card,
 .cert-card,
 .project-card,
@@ -178,9 +166,6 @@ body {
   font-weight: 500;
 }
 
-/* =========================
-   EXPERIENCE
-========================= */
 .timeline-card {
   border-left: 5px solid var(--accent);
 }
@@ -193,9 +178,6 @@ body {
   letter-spacing: 0.12em;
 }
 
-/* =========================
-   PROJECTS
-========================= */
 .project-icon {
   width: 55px;
   height: 55px;
@@ -219,9 +201,6 @@ body {
   font-weight: 600;
 }
 
-/* =========================
-   CERTIFICATIONS
-========================= */
 .cert-score {
   display: inline-block;
   background: #f0edf4;
@@ -232,9 +211,6 @@ body {
   font-weight: 600;
 }
 
-/* =========================
-   CONTACT
-========================= */
 .contact-section {
   background: #faf8fc;
 }
@@ -243,15 +219,12 @@ body {
   max-width: 650px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 767px) {
   .section-padding {
     padding: 65px 0;
   }
 
-  .hero-section h1 {
+  .home-section h1 {
     font-size: 3rem;
   }
 
